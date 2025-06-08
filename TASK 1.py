@@ -6,7 +6,6 @@ dict = {"Alice": 25,
 
 try:
     name = input("Enter the student's name: ").strip().capitalize()
-    print(name)
     print(name, "'s marks: ", dict[name], sep ='')
 
 except KeyError:
